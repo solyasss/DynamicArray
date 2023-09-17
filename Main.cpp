@@ -15,20 +15,20 @@ void main()
     a.input();
     a.output();
 
-    DynamicArray res = a + 5;
-    res.output();
-    res = a - 1;
-    res.output();
-    res = a * 5;
-    res.output();
-    res = a - b;
-    res.output();
-    res = a + b;
-    res.output();
-    ++res;
-    res.output();
-    --res;
-    res.output();
+    DynamicArray result = a + 5;
+    result.output();
+    result = a - 1;
+    result.output();
+    result = a * 5;
+    result.output();
+    result = a - b;
+    result.output();
+    result = a + b;
+    result.output();
+    ++result;
+    result.output();
+    --result;
+    result.output();
 
     system("pause");
 }
